@@ -15,5 +15,10 @@ function App() {
 }
 
 
+const data = items.map((item)=>{
+   const {name, email, password} = item
+   return (<h1>{name}</h1>,  {...item})
+})
+
 
 export default App;
